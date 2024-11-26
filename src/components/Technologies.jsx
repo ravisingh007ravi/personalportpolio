@@ -4,6 +4,7 @@ import {TbBrandNextjs} from 'react-icons/tb'
 import {SiMongodb} from 'react-icons/si'
 import {DiRedis} from 'react-icons/di'
 import {FaNodeJs} from 'react-icons/fa'
+
 export default function Technologies() {
   return (
     <div className='pb-4'>

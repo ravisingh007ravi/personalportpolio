@@ -10,7 +10,7 @@ export default function Hero() {
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start'>
                         <h1 className='pb-16 text-6xl font-thin tracking-tight lg:text-8xl lg:mt-16'>Ravi Singh</h1>
-                        <span className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-600 bg-clip-text text-transparent text-4xl tracking-tight'>Mern Stack Developer</span>
+                        <span className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-600 bg-clip-text text-transparent text-3xl tracking-tight'>Mern Stack Developer</span>
                         <p className='my-2 max-w-xl py-6 font-light tracking-tight'>Trained in MERN Stack Development using React,
                             NodeJs with Express and MongoDB. Proficient in JavaScript. Hands-on in ES6. Understand caching
                             fundamentals and hands-on with Redis. Hands-on experience with AWS S3 file upload and read
