@@ -17,9 +17,7 @@ export default function About() {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ x: -100, opacity: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="rounded-md h-[400px] w-[500px]"
-                            src={ProfileImage}
-                            alt="ProfileImage"
+                            className="rounded-md md:h-[400px] md:w-[500px] h-[250px] w-[300px]"  src={ProfileImage} alt="ProfileImage"
                         />
                     </div>
                 </div>

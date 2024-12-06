@@ -29,7 +29,7 @@ export default function Hero() {
                             variants={container(0.5)}
                             initial='hidden'
                             animate='visible'
-                            className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-600 bg-clip-text text-transparent text-3xl tracking-tight'>Mern Stack Developer</motion.span>
+                            className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-600 bg-clip-text text-transparent text-2xl tracking-tight'>Mern Stack Developer</motion.span>
                         <motion.p
                             variants={container(1)}
                             initial='hidden'
@@ -50,7 +50,7 @@ export default function Hero() {
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
-                            className='rounded-md h-[400px] w-[560px]' src={ProfileImage} alt="ProfileImage" />
+                            className='rounded-md md:h-[400px] md:w-[560px]' src={ProfileImage} alt="ProfileImage" />
                     </div>
                 </div>
 

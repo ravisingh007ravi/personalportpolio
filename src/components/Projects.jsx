@@ -14,14 +14,14 @@ export default function Projects() {
       image: project1,
       description:
         "MERN Developer, Tech Stack: ReactJS, Express, JavaScript, NodeJS, MongoDB. Create Blogger library website. Where Users give review on Blogger. Here use JWT authentication for protected APIs. Like library-Blogger, etc.",
-      technologies: ["React", "Tailwind", "Express", "JavaScript", "Node.js", "MongoDB"],
+      technologies: ["React", "Tailwind", "JavaScript", "Node.js", "MongoDB"],
     },
     {
       title: "Shopping Cart",
       image: project2,
       description:
         "MERN Developer, Tech Stack: JavaScript, Node, MongoDB and React. Created an Shopping card website's backend part with multiple APIs based on products, users, carts and orders. Here use JWT authentication for protected APIs and also use AWS. Like Amazon and Flipkart etc.",
-      technologies: ["React", "Tailwind", "Express", "JavaScript", "Node.js", "MongoDB"],
+      technologies: ["React", "JavaScript", "Node.js", "MongoDB"],
     },
     {
       title: "Portfolio Website",
@@ -64,7 +64,7 @@ export default function Projects() {
              initial={{ x: -100, opacity: 0 }}
              transition={{ duration: 0.5 }}
             className='w-full lg:w-1/4'>
-              <img className='mb-6 rounded' src={project.image} width={200} height={200} alt={project.title} />
+              <img className='mb-6 rounded md:h-[200px] md:w-[250px]' src={project.image} alt={project.title} />
             </motion.div>
 
             {/* Right Div */}
