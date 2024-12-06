@@ -11,7 +11,7 @@ export default function ContactUs() {
 
         <h1 className='my-10 text-center text-4xl'>Get in Touch</h1>
 
-        <div className='text-center -tracking-tighter'>
+        <div className='text-center  tracking-tighter'>
         <p className='my-4'>{CONTACT.address}</p>
         <p className='my-4'>{CONTACT.phoneNo}</p>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" className='my-4 border-b'>{CONTACT.email}</a>
