@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
 
-export default function Navbar() {
+export default function Navbar() { 
     return (
         <nav className='mb-20 flex items-center justify-between py-6'>
 
