@@ -1,57 +1,9 @@
 import React from 'react'
-import project1 from '../assets/projects/Blogger.jpg'
-import project2 from '../assets/projects/Shopping Cart.png'
-import project3 from '../assets/projects/portpolio.png'
-import project4 from '../assets/projects/Products Management.jpeg'
-import project5 from '../assets/projects/Book Management.png'
 import { FaGithub } from "react-icons/fa";
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import { PROJECTS } from './AllPersonaldata';
 
 export default function Projects() {
-
-  const PROJECTS = [
-    {
-      title: "Blogger",
-      image: project1,
-      description:
-        "MERN Developer, Tech Stack: ReactJS, Express, JavaScript, NodeJS, MongoDB. Create Blogger library website. Where Users give review on Blogger. Here use JWT authentication for protected APIs. Like library-Blogger, etc.",
-      technologies: ["React", "Tailwind", "JavaScript", "Node.js", "MongoDB"],
-      githubLink: "https://github.com/ravisingh007ravi/blogsMERNProject.git",
-      deploymentlink: "https://main--verdant-kelpie-438d03.netlify.app/LogIn",
-    },
-    {
-      title: "Shopping Cart",
-      image: project2,
-      description:
-        "MERN Developer, Tech Stack: JavaScript, Node, MongoDB and React. Created an Shopping card website's backend part with multiple APIs based on products, users, carts and orders. Here use JWT authentication for protected APIs and also use AWS. Like Amazon and Flipkart etc.",
-      technologies: ["React", "JavaScript", "Node.js", "MongoDB"],
-      githubLink: "https://github.com/ravisingh007ravi/ShopingCardMERNProject",
-    },
-    {
-      title: "Portfolio Website",
-      image: project3,
-      description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Tailwnd"],
-      githubLink: "https://github.com/ravisingh007ravi/personalportpolio.git",
-    },
-    {
-      title: "Products Management",
-      image: project4,
-      description:
-        "Backend Developer, Tech Stack: JavaScript, Node, MongoDB. Created an eCommerce website's backend part with multiple APIs based on products, users, carts and orders. Here use JWT authentication for protected APIs and also use AWS. Like Amazon and Flipkart etc.",
-      technologies: ["Nodejs", "Express", "MongoDB"],
-      githubLink: "https://github.com/ravisingh007ravi/Product_Management_Ptroject_05",
-    },
-    {
-      title: "Book Management",
-      image: project5,
-      description:
-        "Backend Developer, Tech Stack: JavaScript, NodeJs, MongoDB. Create books library website where users can give review on books. Here use JWT authentication for protected APIs. Like library- management, etc.",
-      technologies: ["Nodejs", "Express", "MongoDB"],
-      githubLink: "https://github.com/ravisingh007ravi/BookManagement",
-    },
-  ];
 
   return (
     <div>

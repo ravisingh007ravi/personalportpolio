@@ -20,9 +20,7 @@ export default function ContactUs() {
         </a>
       </div>
 
-      <div
-        className="mt-10 flex justify-center"
-      >
+      <div className="mt-10 flex justify-center">
         <iframe
           className="w-full h-[400px] rounded-md drop-shadow-md"
           title="map"

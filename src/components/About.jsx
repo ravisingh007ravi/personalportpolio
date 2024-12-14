@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfileImage from '../assets/profile.jpeg';
 import { motion } from 'framer-motion';
+import {PersonalDescribtion} from './AllPersonaldata';
 
 export default function About() {
     return (
@@ -31,12 +32,7 @@ export default function About() {
                             transition={{ duration: 0.5 }}
                             className="my-2 max-w-xl py-6"
                         >
-                            I am a dedicated MERN stack developer with a passion for creating efficient and user-friendly web applications. 
-                            With 3 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, 
-                            MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, 
-                            and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments 
-                            and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, 
-                            and contributing to open-source projects.
+                            {PersonalDescribtion}
                         </motion.p>
                     </div>
                 </div>

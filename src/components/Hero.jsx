@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfileImage from '../assets/ProfileImg.png';
 import { motion } from 'framer-motion'
+import {AllPersonaldata} from './AllPersonaldata';
 
 export default function Hero() {
 
@@ -35,11 +36,9 @@ export default function Hero() {
                             initial='hidden'
 
                             animate='visible'
-                            className='my-2 max-w-xl py-6 font-light tracking-tight'>Trained in MERN Stack Development using React,
-                            NodeJs with Express and MongoDB. Proficient in JavaScript. Hands-on in ES6. Understand caching
-                            fundamentals and hands-on with Redis. Hands-on experience with AWS S3 file upload and read
-                            Experienced in Agile. Methodology : Daily scrum, Sprint planning. Sprint review. Participated in
-                            Function Coding competitions on HackerRank and LeetCode.</motion.p>
+                            className='my-2 max-w-xl py-6 font-light tracking-tight'>
+                                {AllPersonaldata}
+                            </motion.p>
                     </div>
                 </div>
 

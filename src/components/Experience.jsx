@@ -1,31 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-
+import {EXPERIENCES} from './AllPersonaldata';
 export default function Experience() {
-
-  const EXPERIENCES = [
-    {
-      year: "2024 - Present",
-      role: "MERN Stack Developer",
-      company: "Sqilco",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "Tailwindcss", "Nodejs", "Express", "Mongoose", "Redis", "Cloudinary"],
-    },
-    {
-      year: "2022 - 2024",
-      role: "Backend Developer",
-      company: "EXL Services",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["Nodejs", "Express", "Mongoose", "Redis", "AWS S3"],
-    },
-    {
-      year: "2021 - 2022",
-      role: "Full Stack Developer",
-      company: "FunctionUp",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Reactjs", "Nodejs", "Express", "Mongoose", "Redis", "Cloudinary"],
-    }
-  ];
 
   return (
     <div>
