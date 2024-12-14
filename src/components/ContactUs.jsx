@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 export default function ContactUs() {
   const CONTACT = {
@@ -21,12 +20,8 @@ export default function ContactUs() {
         </a>
       </div>
 
-      <motion.div
+      <div
         className="mt-10 flex justify-center"
-        initial={{ y: 20 }}
-        animate={{ y: 0 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
       >
         <iframe
           className="w-full h-[400px] rounded-md drop-shadow-md"
@@ -36,7 +31,7 @@ export default function ContactUs() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
-      </motion.div>
+      </div>
     </div>
   );
 }
