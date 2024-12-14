@@ -4,7 +4,7 @@ export default function ContactUs() {
   const CONTACT = {
     address: "18/72 B Gayatri Nagar Kanpur, Uttar Pradesh, 209861",
     phoneNo: "+91 9198248077",
-    email: "ravisingh007@ravi.com",
+    email: "ravisingh007@gmail.com",
   };
 
 
